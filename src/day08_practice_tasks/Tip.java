@@ -37,5 +37,4 @@ public class Tip {
                 "\nTotal tip = " + totalTip;
     }
 
-
 }

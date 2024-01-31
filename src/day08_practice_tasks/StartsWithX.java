@@ -17,14 +17,3 @@ public class StartsWithX {
         input.close();
     }
 }
-/*
-1. Create a class named StartsWithX and write a program that asks the user to enter a word.
-If the word starts with 'x,' replace it with 'a'.
-
-        Example:
-              Input:
-                 xcodex
-
-              Output:
-                 acodex
- */

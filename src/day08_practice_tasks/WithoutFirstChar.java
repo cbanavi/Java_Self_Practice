@@ -17,16 +17,3 @@ public class WithoutFirstChar {
 
     }
 }
-
-/*
-2. Create a class named WithoutFirstChar. Ask the user to enter two words. Print the first word without its
-first character, then print the second word without its first character.
-
-        Example:
-              Inputs:
-                  apple
-                  banana
-
-              Output:
-                   ppleanana
- */
