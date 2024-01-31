@@ -19,15 +19,3 @@ public class MilesToKM {
 
     }
 }
-
-/*
-9. Create a class named MilesToKM and write a program that asks the user to enter the number of miles and
-convert it to kilometers.
-
-        Example:
-             Enter the miles:
-             Input: 10.0
-
-        Output:
-             10.0 miles is equal to 16.09 kilometers
- */

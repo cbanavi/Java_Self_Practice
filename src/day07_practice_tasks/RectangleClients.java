@@ -40,34 +40,3 @@ public class RectangleClients {
     }
 
 }
-
-/*
-
-Employee employee1 = new Employee();
-
-        employee1.name = "Chiyavan Banavi";
-        employee1.age = 26;
-        employee1.gender = 'M';
-        employee1.jobTitle = "SDET";
-        employee1.salary = 120_000;
-
-        employee1.work();
-        System.out.println(employee1);
-
-        System.out.println();
-
-2. Create a custom class named Rectangle with the following attributes and actions:
-
-      Attributes:
-            width (double): used for storing the width of the rectangle.
-            length (double): used for storing the length of the rectangle.
-
-      Actions:
-            calculateArea(): calculates the area of the rectangle, and returns it as a double.
-            calculatePerimeter(): calculates the perimeter of the rectangle, and returns it.
-            toString(): returns a string representation of the rectangle object.
-
-
-      Create another class named RectangleClients, create multiple rectangle objects, and test each function of the rectangle object.
-
- */
