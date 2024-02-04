@@ -1,6 +1,6 @@
 package day01_practice_tasks;
 
-public class Triangle {
+public class Diamond1 {
 
     public static void main(String[] args) {
 
@@ -10,6 +10,12 @@ public class Triangle {
         System.out.println("  /     \\ ");
         System.out.println(" /       \\");
         System.out.println(" --------- ");
+        System.out.println(" \\       /");
+        System.out.println("  \\     / ");
+        System.out.println("   \\   /  ");
+        System.out.println("    \\ /   ");
+        System.out.println("     V     ");
+
 
     }
 }

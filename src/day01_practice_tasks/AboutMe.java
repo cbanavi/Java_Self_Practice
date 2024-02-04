@@ -1,4 +1,4 @@
-package java_day_one_tasks;
+package day01_practice_tasks;
 
 public class AboutMe {
 
