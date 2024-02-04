@@ -12,5 +12,4 @@ public class SalaryCalculator {
     public static double salary(double hourlyRate, int weeklyHours) {
         return hourlyRate * weeklyHours * 52;
     }
-
 }
