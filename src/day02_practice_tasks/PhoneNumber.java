@@ -1,4 +1,4 @@
-package java_day_two_tasks;
+package day02_practice_tasks;
 
 public class PhoneNumber {
 

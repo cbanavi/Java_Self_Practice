@@ -1,4 +1,4 @@
-package java_day_two_tasks;
+package day02_practice_tasks;
 
 public class EmployeeInfo {
 
@@ -8,7 +8,7 @@ public class EmployeeInfo {
         int age = 24;
         char gender = 'F';
         String companyName = "Apple Inc";
-        String jobTitle = "SDET";
+        String jobTitle = "SET";
         double yearsOfExperience = 2.5;
         double salary = 120_000;
         boolean isFullTime = true;
