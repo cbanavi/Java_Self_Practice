@@ -15,7 +15,6 @@ public class SalaryCalculator {
         double totalTax = stateTax + federalTax;
         double salaryAfterTax = salaryBeforeTax - totalTax;
 
-
         System.out.println("Gross pay is $" + salaryBeforeTax);
         System.out.println("Federal tax is $" + federalTax);
         System.out.println("State tax is $" + stateTax);
