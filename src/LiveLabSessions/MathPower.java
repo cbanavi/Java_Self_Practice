@@ -11,6 +11,5 @@ public class MathPower {
 
         System.out.println();
 
-
     }
 }
