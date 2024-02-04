@@ -18,6 +18,5 @@ public class Circle {
         System.out.println("The perimeter of the Circle is " + circlePerimeter);
 
         input.close();
-
     }
 }
