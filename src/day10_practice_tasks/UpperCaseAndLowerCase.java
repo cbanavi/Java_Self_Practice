@@ -1,6 +1,26 @@
 package day10_practice_tasks;
 
 public class UpperCaseAndLowerCase {
+
+    public static void main(String[] args) {
+
+        String str = "JAVA java";
+        String isUpperCase = "";
+        String isLowerCase = "";
+
+
+        for (char each : str.toCharArray()) {
+            if (Character.isUpperCase(each)) {
+                isUpperCase += each;
+            }
+            if (Character.isLowerCase(each)) {
+                isLowerCase += each;
+            }
+        }
+
+        boolean isEqual = (isUpperCase.length() == isLowerCase.length());
+        System.out.println(isEqual);
+    }
 }
 
 /*

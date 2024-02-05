@@ -1,6 +1,25 @@
 package day10_practice_tasks;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
 public class CombineTwoArrays {
+
+    public static void main(String[] args) {
+
+        String[] arr1 = {"A", "B", "C"};
+        String[] arr2 = {"D", "E", "F", "G"};
+
+        ArrayList<String> list = new ArrayList<>();
+
+        Collections.addAll(list, arr1);
+        Collections.addAll(list, arr2);
+
+        System.out.println(list);
+
+
+    }
 }
 
 /*
