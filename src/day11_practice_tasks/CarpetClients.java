@@ -1,6 +1,26 @@
 package day11_practice_tasks;
 
 public class CarpetClients {
+
+    public static void main(String[] args) {
+
+        Carpet carpet1 = new Carpet(30, 40, 100, false);
+
+        System.out.println(carpet1);
+        System.out.println("Total cost: $" + carpet1.calcCost());
+
+        Carpet carpet2 = new Carpet(20, 20, 200, true);
+
+        System.out.println(carpet2);
+        System.out.println("Total cost: $" + carpet2.calcCost());
+
+        Carpet carpet3 = new Carpet(10, 20, 1000, true);
+
+        System.out.println(carpet3);
+        System.out.println("Total cost: $" + carpet3.calcCost());
+
+    }
+
 }
 
 /*

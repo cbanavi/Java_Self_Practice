@@ -1,6 +1,39 @@
 package day11_practice_tasks;
 
 public class Carpet {
+
+    public double carpetWidth;
+    public double carpetLength;
+    public double unitPrice;
+    public boolean isPersian;
+
+    public Carpet(double carpetWidth, double carpetLength, double unitPrice, boolean isPersian) {
+        this.carpetWidth = carpetWidth;
+        this.carpetLength = carpetLength;
+        this.unitPrice = unitPrice;
+        this.isPersian = isPersian;
+    }
+
+    public double calcCost() {
+        double totalCost = 0;
+
+        totalCost = (carpetWidth * carpetLength) * unitPrice;
+
+        if (this.isPersian == true) {
+            totalCost += 200;
+        }
+        return totalCost;
+    }
+
+
+    public String toString() {
+        return "Carpet{" +
+                "carpetWidth=" + carpetWidth +
+                ", carpetLength=" + carpetLength +
+                ", unitPrice=" + unitPrice +
+                ", isPersian=" + isPersian +
+                '}';
+    }
 }
 
 /*
