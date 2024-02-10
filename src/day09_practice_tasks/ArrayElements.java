@@ -33,9 +33,9 @@ public class ArrayElements {
         System.out.println("-------------------");
 
 //      1.5:
-        for (int i = 0; i < integers.length; i++) {
-            if (integers[i] % 5 == 0) {
-                System.out.print(integers[i] + " ");
+        for (int each : integers) {
+            if (each % 5 == 0) {
+                System.out.print(each + " ");
             }
         }
 
