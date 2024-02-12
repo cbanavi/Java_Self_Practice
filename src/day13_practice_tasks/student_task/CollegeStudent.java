@@ -1,6 +1,15 @@
 package day13_practice_tasks.student_task;
 
-public class Student2 {
+public class CollegeStudent {
+
+    private String studentId, fieldOfStudy;
+    private char grade;
+    private String schoolName;
+
+    // studentId: String
+    //       - fieldOfStudy: String
+    //       - grade: char
+    //       - schoolName: String
 }
 
 /*

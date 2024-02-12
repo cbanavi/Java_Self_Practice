@@ -2,8 +2,8 @@ package day13_practice_tasks.state_task;
 
 public class State {
     
-    public String name, abbreviation, politicalParty, governor, senator;
-    public int population;
+    private String name, abbreviation, politicalParty, governor, senator;
+    private int population;
 
     public State(String name, String abbreviation, String politicalParty, String governor, String senator, int population) {
         setName(name);

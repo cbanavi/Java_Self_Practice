@@ -1,6 +1,11 @@
 package day13_practice_tasks.student_task;
 
 public class Student {
+
+    private String name;
+    private int age;
+    private String gender;
+
 }
 
 /*
