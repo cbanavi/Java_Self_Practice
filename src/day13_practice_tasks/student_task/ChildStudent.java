@@ -1,19 +1,18 @@
 package day13_practice_tasks.student_task;
 
-public class CollegeStudent extends CydeoStudent {
-
-    public CollegeStudent(String name, int age, String gender, int batchNumber, int groupNumber, String programmingLanguage, String studentId, String fieldOfStudy, char grade, String schoolName) {
-        super(name, age, gender, batchNumber, groupNumber, programmingLanguage);
-        setStudentId(studentId);
-        setFieldOfStudy(fieldOfStudy);
-        setGrade(grade);
-        setSchoolName(schoolName);
-    }
+public class ChildStudent extends Student {
 
     private String studentId, fieldOfStudy;
     private char grade;
     private String schoolName;
 
+    public ChildStudent(String name, int age, String gender) {
+        super(name, age, gender);
+        setStudentId(studentId);
+        setFieldOfStudy(fieldOfStudy);
+        setGrade(grade);
+        setSchoolName(schoolName);
+    }
 
 
     public String getStudentId() {
@@ -52,11 +51,21 @@ public class CollegeStudent extends CydeoStudent {
         System.out.println(getName() + " " + getSchoolName() + " is studying.");
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "{" +
+                "studentId='" + studentId + '\'' +
+                ", fieldOfStudy='" + fieldOfStudy + '\'' +
+                ", grade=" + grade +
+                ", schoolName='" + schoolName + '\'' +
+                '}';
+    }
+}
+
     // studentId: String
     //       - fieldOfStudy: String
     //       - grade: char
     //       - schoolName: String
-}
 
 /*
 1. Create a class named "Student" with the following specifications:

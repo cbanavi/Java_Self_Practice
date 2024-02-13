@@ -1,12 +1,17 @@
 package day13_practice_tasks.student_task;
 
-public class CydeoStudent extends Student {
+public class CydeoStudent extends ChildStudent {
 
     private int batchNumber, groupNumber;
     private String programmingLanguage;
 
-    public CydeoStudent(String name, int age, String gender, int batchNumber, int groupNumber, String programmingLanguage) {
+    public CydeoStudent(String name, int age, String gender, String studentId, String fieldOfStudy, char grade,
+                        String schoolName, int batchNumber, int groupNumber, String programmingLanguage) {
         super(name, age, gender);
+        setStudentId(studentId);
+        setFieldOfStudy(fieldOfStudy);
+        setGrade(grade);
+        setSchoolName(schoolName);
         setBatchNumber(batchNumber);
         setGroupNumber(groupNumber);
         setProgrammingLanguage(programmingLanguage);
@@ -36,15 +41,18 @@ public class CydeoStudent extends Student {
         this.programmingLanguage = programmingLanguage;
     }
 
-
-    public String toString() {
-        return getClass().getSimpleName() + "{" +
-                "name='" + getName() + '\'' +
-                ", age=" + getAge() +
-                ", gender='" + getAge() + '\'' +
-                '}';
+    public void study() {
+        super.study();
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "{" +
+                "batchNumber=" + batchNumber +
+                ", groupNumber=" + groupNumber +
+                ", programmingLanguage='" + programmingLanguage + '\'' +
+                '}';
+    }
 }
 
 /*
