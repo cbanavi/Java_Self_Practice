@@ -8,15 +8,15 @@ public class StudentClients {
         Student student2 = new Student("Jane Don", 27, "Female");
 
         GraduateStudent graduate1 = new GraduateStudent("Jack Evans", 28, "Male", "A01", "SDET", 'A', "Cydeo");
-        GraduateStudent graduate2 = new GraduateStudent("Daisy Owens", 30, "Female","A02", "Developer", 'C', "Cydeo");
+        GraduateStudent graduate2 = new GraduateStudent("Daisy Owens", 30, "Female","A02", "Developer", 'C', "SDSU");
 
-        UndergraduateStudent undergrad1 = new UndergraduateStudent("Mike Stevens", 22, "Male", "A03", "IT", 'B', "Cydeo");
-        UndergraduateStudent undergrad2 = new UndergraduateStudent("Jen Lee", 22, "Female", "A04", "Cybersecurity", 'B', "Cydeo");
+        UndergraduateStudent undergrad1 = new UndergraduateStudent("Mike Stevens", 22, "Male", "A03", "IT", 'B', "Grossmont College");
+        UndergraduateStudent undergrad2 = new UndergraduateStudent("Jen Lee", 22, "Female", "A04", "Cybersecurity", 'B', "San Diego City College");
 
         CydeoStudent cydeo1 = new CydeoStudent("Daniel Garcia", 29, "Male", "A04", "Programming",
-                'B',"Cydeo",1, 2, "Java");
+                'B',"UCSD",1, 2, "Java");
         CydeoStudent cydeo2 = new CydeoStudent("Daniella Lopez", 29, "Female", "A05", "AI",
-                'C', "Cydeo", 2, 3, "C++");
+                'C', "USD", 2, 3, "C++");
 
         System.out.println("Student's:");
         System.out.println(student1);
@@ -31,6 +31,14 @@ public class StudentClients {
         System.out.println(cydeo1);
         System.out.println(cydeo2);
 
+        graduate1.study();
+        graduate2.study();
+
+        undergrad1.study();
+        undergrad2.study();
+
+        cydeo1.study();
+        cydeo2.study();
     }
 
 }
