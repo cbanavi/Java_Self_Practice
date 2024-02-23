@@ -26,21 +26,6 @@ public class RemovePalindromes {
         System.out.println(list);
 
 
-
-//        for (String each : list) {
-//            for (char eachChar : each.toCharArray()) {
-//                characters.push(eachChar);
-//            }
-//        }
-//
-//        String reverse = "";
-//
-//        while (!characters.isEmpty()) {
-//            reverse += characters.pop();
-//        }
-//
-//        System.out.println(reverse);
-
     }
 
 }

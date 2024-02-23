@@ -9,7 +9,6 @@ public class Anagram {
         String str1 = "xyze";
         String str2 = "xyzd";
 
-
         Set<Character> set1 = new HashSet<>(); //Hashset removes duplicates
         Set<Character> set2 = new HashSet<>();
 
