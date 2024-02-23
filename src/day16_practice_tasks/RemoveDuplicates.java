@@ -1,6 +1,22 @@
 package day16_practice_tasks;
 
+import java.util.*;
+
 public class RemoveDuplicates {
+
+    public static void main(String[] args) {
+
+        Set<Integer> numbers = new TreeSet<>(); //Removes duplicates and sort
+        numbers.addAll(Arrays.asList(
+                20, 15, 10, 20, 30, 10, 20, 15, 0
+        ));
+
+        System.out.println(numbers);
+
+
+
+    }
+
 }
 
 /*
