@@ -1,6 +1,29 @@
 package day17_practice_tasks;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class InvertMap {
+
+    public static void main(String[] args) {
+
+        Map<Integer, Character> map = new HashMap<>();
+        map.put(1, 'a');
+        map.put(2, 'b');
+        map.put(3, 'c');
+
+        Map<Character, Integer> invertMap = new LinkedHashMap<>();
+
+        System.out.println(map);
+
+        for (Map.Entry<Integer, Character> integerCharacterEntry : map.entrySet()) {
+            invertMap.put(integerCharacterEntry.getValue(), integerCharacterEntry.getKey());
+        }
+
+        System.out.println(invertMap);
+    }
+
 }
 
 /*
